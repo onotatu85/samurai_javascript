@@ -1,0 +1,18 @@
+<body>
+ <script>
+  const dollar = 108;
+
+  const getyentodollar = (number) => {
+    return number * dollar;
+  }
+
+  while(true){
+    const money = prompt("ドルから円に換算します");
+
+    if(money) {
+
+      console.log(getyentodollar(money) + "円です");
+    } else break;
+  }
+ </script>
+</body>
