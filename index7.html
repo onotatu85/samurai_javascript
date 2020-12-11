@@ -1,0 +1,22 @@
+<body>
+  <script>
+    class Animal {
+      constructor(name, age){
+        this.name = name;
+        this.age = age;
+      }
+    }
+
+    class Cat extends Animal {
+      constructor(name,age,type) {
+        super(name,age);
+        this.type = type;
+
+      }
+    }
+
+    const cat = new Cat("猫",3,"シャム");
+
+    console.log(cat);
+ 
+  </script>
